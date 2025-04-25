@@ -80,5 +80,19 @@ import itertools
 
 
 
-arr=[1,2,3,4,5,6,7]
-print(sum(arr))
+# arr=[1,2,3,4,5,6,7]
+# print(sum(arr))
+
+# accumulate
+
+# import operator
+# arr=[1,2,3,4,5,6,7]
+# sum=list(itertools.accumulate(arr))
+# product=list(itertools.accumulate(arr,operator.mul))
+# print(product)
+
+
+# arr=[1,2,3,4,5,6,7]
+# product=list(itertools.accumulate(arr,lambda x,y:x*y))
+# print(product)
+
